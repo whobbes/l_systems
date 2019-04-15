@@ -1,6 +1,6 @@
 # Chinese whispers: L Systems
 
-**Participant**: This repo contains code used to run a code night based on Chinese Whispers concept. For a few iterations participants code for 10 minutes then pass their computer to the left in a circle. One new requirement per iteration is added. At the end code and approaches are compared and discussed. The base code for the session is included in `l_system.py`
+**Participant**: This repository contains code used to run a code night based on Chinese Whispers concept. For a few iterations participants code for 10 minutes then pass their computer to the left in a circle. One new requirement per iteration is added. At the end code and approaches are compared and discussed.
 
 **Faciliator**: the full instructions and solution are in the `solution` folder.
 
@@ -10,4 +10,9 @@
 
 ## Requirements
 
-- Python 3
+Python 3
+
+## Running the code
+
+1. Download `l_system.py` file from this repository
+2. Run `python3 l_system.py`
