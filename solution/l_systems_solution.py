@@ -71,7 +71,7 @@ class L_systemDrawer():
 if __name__ == "__main__":
     #l_sys = L_systemDrawer() # Task 1, 2, 3
     #l_sys = L_systemDrawer(instructions='A', iterations=5, angle=60, distance=10) # Task 4
-    #l_sys = L_systemDrawer(instructions='-3', iterations=1, angle=90, distance=30) # Optional Task
-    # l_sys = L_systemDrawer(instructions='1-1-1-1', iterations=2, angle=90, distance=10) # Task Z: Islands!
+    l_sys = L_systemDrawer(instructions='-3', iterations=3, angle=90, distance=15) # Optional Task
+    #l_sys = L_systemDrawer(instructions='1-1-1-1', iterations=2, angle=90, distance=10) # Task Z: Islands!
     l_sys.draw()
     l_sys.finish_and_wait()
