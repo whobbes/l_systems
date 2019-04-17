@@ -1,6 +1,12 @@
 import turtle
 import random as rd
 
+def draw(turtle):
+        turtle.pendown()
+        turtle.forward(50)
+        turtle.penup()
+        turtle.forward(100)
+
 if __name__ == "__main__":
 
         # Create objects
@@ -12,10 +18,7 @@ if __name__ == "__main__":
         t.shape("turtle")
 
         # Draw message
-        t.pendown()
-        t.forward(50)
-        t.penup()
-        t.forward(100)
+        draw(t)
         t.write("Job done :)  ", True, font=("Arial", 24, "normal"))
 
         # Keep window open until user click or close it
